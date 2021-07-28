@@ -13,7 +13,7 @@ $(function () {
     // fixed menu js
     $(window).scroll(function () {
         let scrolling = $(this).scrollTop();
-        if (scrolling > 0) {
+        if (scrolling > 10) {
             $('.header').addClass('fixed');
         } else {
             $('.header').removeClass('fixed');
@@ -83,16 +83,9 @@ $(function () {
                 }
             },
             {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-            {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
@@ -117,7 +110,7 @@ $(function () {
     var btn = $('#button');
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 0) {
+        if ($(window).scrollTop() > 100) {
             btn.addClass('show');
         } else {
             btn.removeClass('show');
