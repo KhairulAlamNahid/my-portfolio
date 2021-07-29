@@ -1,6 +1,21 @@
 @media (min-width:1200px) and (max-width:1399px) {
+    /* banner part css */
     #banner .text h1::before {
         right: 18px;
+    }
+    /* skills part css */
+    #my-skills .heading h2 {
+        padding-right: 138px;
+    }
+    .circle-chart {
+        width: 166px;
+        height: 166px;
+    }
+    .item {
+        margin-top: 15px;
+    }
+    #my-skills .progress-details {
+        width: auto;
     }
 }
 
@@ -8,6 +23,10 @@
     /* header part css */
     header .follow {
         padding-right: 40px;
+    }
+    /* navbar part css */
+    nav .logo {
+        top: -200px;
     }
     /* banner part css */
     #banner .text h3 {
@@ -27,12 +46,15 @@
     }
     /* about part css */
     #about {
-        padding: 60px 0 30px 0;
+        padding: 90px 0 30px 0;
+    }
+    #about .text h2 {
+        padding-right: 50px;
     }
     .heading h2 {
         font-size: 32px;
         line-height: 1.3;
-        width: 300px;
+        width: 306px;
     }
     .heading h2 .some {
         letter-spacing: 1px;
@@ -45,6 +67,7 @@
     }
     #about .details-text p {
         width: auto;
+        padding-right: 20px;
     }
     #about .contact {
         padding-bottom: 45px;
@@ -60,6 +83,9 @@
         line-height: 65px;
         font-size: 30px;
     }
+    #about .img {
+        margin-top: 40px;
+    }
     /* skills part css */
     #my-skills {
         padding: 60px 0 40px 0;
@@ -73,6 +99,16 @@
     #my-skills .title-text {
         padding-bottom: 30px;
     }
+    #my-skills .heading h2 {
+        padding-right: 0;
+    }
+    .circle-chart {
+        width: 160px;
+        height: 160px;
+    }
+    .text-center {
+        margin-top: 20px;
+    }
     /* portfolio part css */
     #portfolio {
         padding: 60px 0 30px 0;
@@ -81,23 +117,26 @@
         padding: 15px 0 10px 0;
         margin: 0 auto;
     }
+    #portfolio ul {
+        text-align: center;
+    }
     #portfolio ul li {
         margin: 0 10px;
     }
-    #portfolio .overlay i {
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        font-size: 16px;
+    /* feedback part css */
+    #feedback {
+        padding: 60px 0 0px 0;
     }
-    #portfolio .overlay h3 {
-        font-size: 20px;
-        font-weight: 500;
+    #feedback .heading h2 {
+        padding: 10px 0 0;
+        margin: 0 auto;
     }
-    #portfolio .overlay p {
-        font-size: 16px;
-        padding: 0px 0 5px 0;
-        font-weight: 500;
+    #feedback .feed-main .slider-item {
+        padding: 20px 22px 20px 66px;
+    }
+    #feedback .feed-main .main-text {
+        padding-top: 20px;
+        padding-bottom: 17px;
     }
 }
 
@@ -125,6 +164,9 @@
     /* about part css */
     #about {
         padding: 60px 0 30px 0;
+    }
+    #about .text h2 {
+        padding-right: 56px;
     }
     .heading h2 {
         font-size: 32px;
@@ -174,10 +216,8 @@
     #my-skills .heading h2 {
         padding-right: 0;
     }
-
     #my-skills .item .circle {
         margin-bottom: 110px;
-        text-align: left;
     }
     /* portfolio part css */
     #portfolio {
@@ -186,6 +226,9 @@
     #portfolio .heading h2 {
         padding: 15px 0 10px 0;
         margin: 0 auto;
+    }
+    #portfolio ul {
+        text-align: center;
     }
     #portfolio ul li {
         margin: 0 10px;
@@ -202,8 +245,54 @@
     }
     #portfolio .overlay p {
         font-size: 16px;
-        padding: 0px 0 5px 0;
+        padding: 0;
         font-weight: 500;
+        margin-bottom: -8px;
+    }
+    #portfolio .images a {
+        letter-spacing: 1px;
+        padding: 0px 10px;
+    }
+    #portfolio .overlay i {
+        width: 30px;
+    }
+    /* feedback part css */
+    #feedback .heading h2 {
+        padding: 10px 0px 0;
+        margin: 0 auto;
+    }
+    #feedback .feed-main .img {
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #feedback .feed-main .slider-item {
+        padding: 30px 20px 20px;
+        margin: 0 12px;
+    }
+    #feedback .slick-list {
+        padding-top: 48px;
+    }
+    #feedback .feed-main .text i {
+        display: none;
+    }
+    #feedback ul {
+        margin-top: 12px;
+    }
+    /* contact part css */
+    .heading {
+        padding-bottom: 20px;
+    }
+    .mail {
+        display: inline-block;
+        padding-left: 8px;
+    }
+    #contact .form-part {
+        padding-top: 30px;
+    }
+    #contact .form-part::before {
+        width: 100%;
     }
 }
 
@@ -223,6 +312,9 @@
     }
     nav .logo {
         border-radius: 0 0 60% 50%;
+    }
+    nav .logo img {
+        margin-left: -8px;
     }
     nav ul li a {
         font-size: 20px;
@@ -287,6 +379,9 @@
         height: 65px;
         line-height: 65px;
         font-size: 30px;
+    }
+    #about .text h2 {
+        padding-right: 50px;
     }
     /* skills part css */
     #my-skills {
@@ -447,6 +542,9 @@
     }
     nav .logo {
         border-radius: 0 0 60% 50%;
+    }
+    nav .logo img {
+        margin-left: -8px;
     }
     nav ul li a {
         font-size: 20px;
@@ -705,5 +803,27 @@
         border-radius: 4px;
         background-color: #929292;
         display: inline-flex;
+    }
+}
+
+@media (width:411px) {
+    /* portfolio part css */
+    #portfolio .heading h2 {
+        padding: 15px 33px 10px 0;
+    }
+    /* feedback part css */
+    #feedback .heading h2 {
+        padding: 10PX 89px 0px 0px;
+    }
+}
+
+@media (width:414px) {
+    /* portfolio part css */
+    #portfolio .heading h2 {
+        padding: 15px 33px 10px 0;
+    }
+    /* feedback part css */
+    #feedback .heading h2 {
+        padding: 10PX 89px 0px 0px;
     }
 }

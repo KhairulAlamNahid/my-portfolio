@@ -1,7 +1,7 @@
 $(function () {
     // preloader js
     $(window).on('load', function () {
-        $('.preloader').delay(0).fadeOut(800);
+        $('.preloader').delay(1000).fadeOut(800);
     })
 
     // circle progressbar
@@ -68,16 +68,16 @@ $(function () {
         dots: true,
         infinite: true,
         speed: 800,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 2,
         arrows: false,
         slidesToScroll: 1,
         slidesToScroll: true,
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -88,7 +88,7 @@ $(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
-            }
+            },
         ]
     });
 

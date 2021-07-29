@@ -124,7 +124,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
+    font-size: 22px;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
@@ -759,7 +759,7 @@ nav .social-icon ul li a:hover {
 }
 
 #about .text h2 {
-    padding-right: 60px;
+    padding-right: 105px;
 }
 
 #about .details {
@@ -1079,7 +1079,7 @@ nav .social-icon ul li a:hover {
     transition: all linear .1s;
 }
 
-#portfolio .images a i{
+#portfolio .images a i {
     padding-right: 5px;
 }
 
