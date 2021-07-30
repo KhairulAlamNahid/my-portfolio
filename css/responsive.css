@@ -3,6 +3,15 @@
     #banner .text h1::before {
         right: 18px;
     }
+    /* about part css */
+    #about .achive-icon i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    #about .achive-text h6 {
+        font-size: 42px;
+    }
     /* skills part css */
     #my-skills .heading h2 {
         padding-right: 138px;
@@ -85,6 +94,12 @@
     }
     #about .img {
         margin-top: 40px;
+    }
+    #about .achivement {
+        padding-top: 20px;
+    }
+    #about .item {
+        margin-top: 30px;
     }
     /* skills part css */
     #my-skills {
@@ -198,6 +213,12 @@
         height: 65px;
         line-height: 65px;
         font-size: 30px;
+    }
+    #about .achivement {
+        padding-top: 50px;
+    }
+    #about .item {
+        margin-top: 30px;
     }
     /* skills part css */
     #my-skills {
@@ -382,6 +403,12 @@
     }
     #about .text h2 {
         padding-right: 50px;
+    }
+    #about .achivement {
+        padding-top: 50px;
+    }
+    #about .item {
+        margin-top: 30px;
     }
     /* skills part css */
     #my-skills {
@@ -617,6 +644,12 @@
         left: -8px;
         bottom: -8px;
         height: 8px;
+    }
+    #about .achivement {
+        padding-top: 50px;
+    }
+    #about .item {
+        margin-top: 30px;
     }
     /* skills part css */
     #my-skills {

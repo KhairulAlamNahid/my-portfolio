@@ -785,7 +785,8 @@ nav .social-icon ul li a:hover {
 #about .details-text p {
     line-height: 28px;
     padding-top: 15px;
-    width: 500px;
+    width: 521px;
+    text-transform: capitalize;
 }
 
 #about .contact {
@@ -862,6 +863,50 @@ nav .social-icon ul li a:hover {
     100% {
         transform: translatey(0px);
     }
+}
+
+#about .achivement {
+    padding-top: 80px;
+}
+
+#about .item {
+    width: 100%;
+    display: flex;
+}
+
+#about .achive-icon {
+    width: 40%;
+}
+
+#about .achive-icon i {
+    font-size: 22px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 20px;
+    border: 1px solid #252734;
+    color: #ddd;
+}
+
+#about .achive-text {
+    width: 60%;
+}
+
+#about .achive-text h6 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ddd;
+}
+
+#about .achive-text span {
+    margin-left: -10px;
+}
+
+#about .achive-text .intro {
+    color: #6c757d;
+    margin-left: -13px;
+    font-size: 16px;
 }
 
 /*-----about part end-----*/
@@ -1089,6 +1134,7 @@ nav .social-icon ul li a:hover {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding-bottom: 5px;
 }
 
 #portfolio .images p i {

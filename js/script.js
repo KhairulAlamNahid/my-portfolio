@@ -1,9 +1,9 @@
 $(function () {
     // preloader js
     $(window).on('load', function () {
-        $('.preloader').delay(1000).fadeOut(800);
+        $('.preloader').delay().fadeOut(800);
     })
-
+    
     // circle progressbar
     $('.circlechart').circlechart();
 
