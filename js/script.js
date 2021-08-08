@@ -145,6 +145,14 @@ $(function () {
         $('.mixer').toggleClass('show-mixer');
     });
 
+    $('.mixer .icon').click(function () {
+        $('.full-overlay').toggleClass('visible');
+    });
+
+    $('.full-overlay').click(function () {
+        $('.mixer').removeClass('show-mixer');
+    });
+
     // color switcher
     // $('.color_one').click(function () {
     //     $('nav .color_mixer').css('background-color', '#6957AF');
