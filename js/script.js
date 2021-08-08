@@ -3,7 +3,7 @@ $(function () {
     $(window).on('load', function () {
         $('.preloader').delay().fadeOut(800);
     })
-    
+
     // circle progressbar
     $('.circlechart').circlechart();
 
@@ -38,7 +38,23 @@ $(function () {
         $('.sidebar').addClass('show-menu');
     });
 
+    $('.side-menu').click(function () {
+        $('.full-overlay').addClass('visible');
+    });
+
     $('.sidebar .side-nav li a').click(function () {
+        $('.sidebar').removeClass('show-menu');
+    });
+
+    $('.sidebar .side-nav li a').click(function () {
+        $('.full-overlay').removeClass('visible');
+    });
+
+    $('.full-overlay').click(function () {
+        $('.full-overlay').removeClass('visible');
+    });
+
+    $('.full-overlay').click(function () {
         $('.sidebar').removeClass('show-menu');
     });
 
