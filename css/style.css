@@ -26,6 +26,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     background-color: #10101A;
+    cursor: default;
 }
 
 ::selection {
@@ -138,123 +139,6 @@ body {
     }
 }
 
-/* 
-.loader .box-1 {
-    width: 74px;
-    height: 74px;
-    border-radius: 4px;
-}
-
-.loader .box-1:before, .loader .box-1:after {
-    bottom: 2px;
-}
-
-.loader .box-1:before {
-    left: 2px;
-}
-
-.loader .box-1:after {
-    right: 2px;
-}
-
-.loader .box-2 {
-    left: 2px;
-    top: 2px;
-    -webkit-animation-name: loading-1;
-    animation-name: loading-1;
-}
-
-.loader .box-1 {
-    -webkit-animation-name: loading-2;
-    animation-name: loading-2;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-timing-function: steps(4);
-    animation-timing-function: steps(4);
-}
-
-.loader .box-2 {
-    -webkit-animation-duration: 0.5s;
-    animation-duration: 0.5s;
-}
-
-.box-1 {
-    position: absolute;
-    color: #10101A;
-    border: 2px solid;
-    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-    transform: translate(-50%, -50%) rotate(-45deg);
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-.loader .box-1:before, .loader .box-1:after {
-    content: "";
-    width: 32px;
-    height: 32px;
-    border-radius: 4px;
-    background: #b6153b;
-    position: absolute;
-}
-
-.loader .box-1:before {
-    left: 2px;
-}
-
-.loader .box-1:after {
-    right: 2px;
-}
-
-.box-2 {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    border-radius: 4px;
-    background: #b6153b;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes loading-1 {
-    33% {
-        left: 2px;
-    }
-    67%, 100% {
-        left: 36px;
-    }
-}
-
-@keyframes loading-1 {
-    33% {
-        left: 2px;
-    }
-    67%, 100% {
-        left: 36px;
-    }
-}
-
-@-webkit-keyframes loading-2 {
-    to {
-        -webkit-transform: translate(-50%, -50%) rotate(-405deg);
-        transform: translate(-50%, -50%) rotate(-405deg);
-    }
-}
-
-@keyframes loading-2 {
-    to {
-        -webkit-transform: translate(-50%, -50%) rotate(-405deg);
-        transform: translate(-50%, -50%) rotate(-405deg);
-    }
-} */
-
 /*-----preloder part start-----*/
 
 header {
@@ -272,7 +156,7 @@ header .open-menu {
 }
 
 header .open-menu i {
-    font-size: 24px;
+    font-size: 22px;
     cursor: pointer;
     padding: 9px 25px 9px 60px;
     position: relative;
@@ -280,7 +164,7 @@ header .open-menu i {
 
 header .open-menu i span {
     position: absolute;
-    top: 14px;
+    top: 12px;
     right: -34px;
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
@@ -323,12 +207,12 @@ header .follow {
 }
 
 .btn-hover {
-    width: 140px;
+    width: 130px;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-    height: 52px;
+    height: 50px;
     text-align: center;
     border: none;
     background-size: 300% 100%;
@@ -1287,7 +1171,7 @@ nav .social-icon ul li a:hover {
 
 #contact {
     /* background-color: #080224; */
-    padding: 100px 0 53px 0;
+    padding: 100px 0 70px 0;
 }
 
 #contact .touch-part h3 {
@@ -1342,7 +1226,7 @@ nav .social-icon ul li a:hover {
 #contact .form-part::before {
     position: absolute;
     width: 51%;
-    height: 100%;
+    height: 503px;
     background: url(../images/contact-img.png);
     left: -37px;
     top: 53px;

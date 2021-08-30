@@ -4,6 +4,20 @@ $(function () {
         $('.preloader').delay().fadeOut(800);
     })
 
+    // active menu js
+
+    const li = document.querySelectorAll(".links");
+    const sec = document.querySelectorAll("section");
+
+    function activeMenu() {
+        let len = sec.length;
+        while (--len && window.scrollY + 97 < sec[len].offsetTop) {}
+        li.forEach(ltx => ltx.classList.remove("active"));
+        li[len].classList.add("active");
+    }
+    activeMenu();
+    window.addEventListener("scroll", activeMenu)
+
     // circle progressbar
     $('.circlechart').circlechart();
 
@@ -144,56 +158,5 @@ $(function () {
     $('.mixer .icon').click(function () {
         $('.mixer').toggleClass('show-mixer');
     });
-
-    // color switcher
-    // $('.color_one').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#6957AF');
-    //     $('nav ul li.active').css('color', '#6957AF');
-    // });
-
-    // $('.color_two').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#F72B1C');
-    //     $('nav .active').css('color', '#F72B1C');
-    // });
-
-    // $('.color_three').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#8A2BE2');
-    //     $('nav .active').css('color', '#8A2BE2');
-    // });
-
-    // $('.color_four').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#4169E1');
-    //     $('nav .active').css('color', '#4169E1');
-    // });
-
-    // $('.color_five').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#DAA520');
-    //     $('nav .active').css('color', '#DAA520');
-    // });
-
-    // $('.color_six').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#EE6192');
-    //     $('nav .active').css('color', '#EE6192');
-    // });
-
-    // $('.color_seven').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#9ACD32');
-    //     $('nav .active').css('color', '#9ACD32');
-    // });
-
-    // $('.color_eight').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#FA5B0F');
-    //     $('nav .active').css('color', '#FA5B0F');
-    // });
-
-    // $('.color_nine').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#72B626');
-    //     $('nav .active').css('color', '#72B626');
-    // });
-
-    // $('.color_ten').click(function () {
-    //     $('nav .color_mixer').css('background-color', '#FFB400');
-    //     $('nav .active').css('color', '#F72B1C');
-    // });
 
 });
