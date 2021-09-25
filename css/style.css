@@ -271,7 +271,7 @@ header .follow {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 999;
+    z-index: 99999;
     display: none;
 }
 
@@ -286,7 +286,7 @@ nav {
     position: fixed;
     top: 0;
     left: -280px;
-    z-index: 9999;
+    z-index: 999999;
     overflow: hidden;
     transition: all linear .4s;
 }
@@ -315,13 +315,20 @@ nav .logo {
     border-radius: 0 0 50% 50%;
 }
 
-nav .logo img {
+nav .logo .image {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     border: 5px solid #fff;
     display: inline-block;
     margin-top: 180px;
+    overflow: hidden;
+    background-color: #FEBF16;
+}
+
+nav .logo .image img {
+    height: 114px;
+    margin: 4px 0 0 3px;
 }
 
 nav .navbar-main {
@@ -420,6 +427,7 @@ nav .social-icon ul li a:hover {
 
 /*-----banner part start-----*/
 
+/* 
 .mixer {
     position: fixed;
     top: 30%;
@@ -493,7 +501,7 @@ nav .social-icon ul li a:hover {
 
 .show-mixer {
     right: 0;
-}
+} */
 
 #banner {
     width: 100%;
@@ -825,6 +833,10 @@ nav .social-icon ul li a:hover {
     padding-bottom: 40px;
 }
 
+#my-skills .title-text .web-skill {
+    position: relative;
+}
+
 #my-skills .heading h2 {
     padding-right: 150px;
 }
@@ -834,25 +846,48 @@ nav .social-icon ul li a:hover {
     font-weight: 600;
 }
 
+#my-skills .title-text .web-skill {
+    position: relative;
+}
+
+#my-skills .title-text .aval {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 400;
+    top: 29px;
+    left: 15%;
+    background-color: #FEBF16;
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 20px;
+    z-index: 9;
+}
+
+#my-skills .title-text .dev-skill {
+    position: relative;
+}
+
+#my-skills .title-text .comming {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 400;
+    top: 29px;
+    right: 25%;
+    background-color: #FEBF16;
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 20px;
+}
+
 #my-skills .title {
-    font-size: 16px;
-    font-weight: 500;
-    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 9px;
+    letter-spacing: 1px;
 }
 
 #my-skills .progress-details {
     width: 550px
-}
-
-#my-skills .progress-details .progress-title {
-    font-size: 15px;
-    font-weight: 600;
-    padding-bottom: 10px;
-    letter-spacing: 1px;
-}
-
-#my-skills .progress-details .toll-tip {
-    float: right;
 }
 
 #my-skills .item .circle {
@@ -911,31 +946,29 @@ nav .social-icon ul li a:hover {
     padding: 100px 0 0px 0;
 }
 
-#portfolio .port-main {
-    padding-top: 20px;
+#portfolio .port-headline {
+    padding: 0 100px;
 }
 
-#portfolio ul li {
-    display: inline-block;
+#portfolio .port-headline p {
     font-size: 18px;
-    margin-right: 30px;
-    cursor: pointer;
     color: #dbdbdb;
-    transition: all linear .3s;
     position: relative;
+    padding-left: 10px;
 }
 
-#portfolio ul li.mixitup-control-active {
-    color: #F21E4E;
+#portfolio .port-headline p::after {
+    width: 4px;
+    height: 50%;
+    background-color: #F21E4E;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
 }
 
-#portfolio ul {
-    padding-bottom: 30px;
-    position: relative;
-}
-
-#portfolio ul li:hover {
-    color: #F21E4E;
+#portfolio .port-main {
+    padding-top: 50px;
 }
 
 #portfolio .images {
@@ -1244,8 +1277,8 @@ nav .social-icon ul li a:hover {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #contact .field {
@@ -1266,7 +1299,7 @@ nav .social-icon ul li a:hover {
 
 #contact textarea {
     height: 180px !important;
-    padding: 30px;
+    padding: 20px;
     resize: none;
 }
 

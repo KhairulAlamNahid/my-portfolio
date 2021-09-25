@@ -1,11 +1,10 @@
 $(function () {
     // preloader js
     $(window).on('load', function () {
-        $('.preloader').delay().fadeOut(800);
+        $('.preloader').delay().fadeOut(1000);
     })
 
     // active menu js
-
     const li = document.querySelectorAll(".links");
     const sec = document.querySelectorAll("section");
 
@@ -15,6 +14,7 @@ $(function () {
         li.forEach(ltx => ltx.classList.remove("active"));
         li[len].classList.add("active");
     }
+
     activeMenu();
     window.addEventListener("scroll", activeMenu)
 
@@ -33,13 +33,6 @@ $(function () {
             $('.header').removeClass('fixed');
         }
     });
-
-    // barfiller progressbar js
-    $('#bar1').barfiller();
-    $('#bar2').barfiller();
-    $('#bar3').barfiller();
-    $('#bar4').barfiller();
-    $('#bar5').barfiller();
 
     // counter up js
     $('.counter').counterUp({
@@ -85,10 +78,6 @@ $(function () {
         backSpeed: 30,
         backDelay: 3000,
     });
-
-    // mixitup js
-    var containerEl = document.querySelector('.main-container');
-    var mixer = mixitup(containerEl);
 
     // animation on scroll js
     AOS.init();
@@ -155,8 +144,8 @@ $(function () {
     });
 
     // color switcher
-    $('.mixer .icon').click(function () {
-        $('.mixer').toggleClass('show-mixer');
-    });
+    // $('.mixer .icon').click(function () {
+    //     $('.mixer').toggleClass('show-mixer');
+    // });
 
 });

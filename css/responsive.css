@@ -132,12 +132,6 @@
         padding: 15px 0 10px 0;
         margin: 0 auto;
     }
-    #portfolio ul {
-        text-align: center;
-    }
-    #portfolio ul li {
-        margin: 0 10px;
-    }
     /* feedback part css */
     #feedback {
         padding: 60px 0 0px 0;
@@ -247,12 +241,6 @@
     #portfolio .heading h2 {
         padding: 15px 0 10px 0;
         margin: 0 auto;
-    }
-    #portfolio ul {
-        text-align: center;
-    }
-    #portfolio ul li {
-        margin: 0 10px;
     }
     #portfolio .overlay i {
         width: 45px;
@@ -445,9 +433,6 @@
         display: block;
         text-align: left;
     }
-    #portfolio ul li {
-        margin-right: 21px;
-    }
     #portfolio .overlay i {
         width: 45px;
         height: 45px;
@@ -468,10 +453,6 @@
         height: 45px;
         line-height: 45px;
         font-size: 16px;
-    }
-    #portfolio .overlay h3 {
-        font-size: 20px;
-        font-weight: 500;
     }
     #portfolio .overlay p {
         font-size: 16px;
@@ -783,10 +764,6 @@
     #my-skills .heading h2 {
         padding-right: 0px;
     }
-    /* portfolio part css */
-    #portfolio ul li {
-        margin-right: 28px;
-    }
     /* feedback part css */
     #feedback .feed-main .name {
         font-size: 15px;
@@ -823,10 +800,6 @@
     }
     #my-skills .heading h2 {
         padding-right: 0;
-    }
-    /* portfolio part css */
-    #portfolio ul li {
-        margin: 0 9px 0 0;
     }
     /* feedback part css */
     #feedback .feed-main .dot {

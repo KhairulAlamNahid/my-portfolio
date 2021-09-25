@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/venobox.css">
     <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/barfiller.css">
+    <link rel="stylesheet" href="css/jquery.rprogessbar.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/progresscircle.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,12 +25,12 @@
 
 <body>
     <!-----header part start----->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader">
             <div class="rotate"></div>
             <h2>loading</h2>
         </div>
-    </div>
+    </div> -->
     <header class="header">
         <div class="main d-flex">
             <div class="open-menu">
@@ -47,7 +47,9 @@
     <div class="full-overlay"></div>
     <nav class="sidebar">
         <div class="logo text-center color_mixer">
-            <img src="images/my_image.jpg" alt="my_image">
+            <div class="image">
+                <img class="profile w-100" src="images/profile.png" alt="my_image">
+            </div>
             <h2>nahid</h2>
         </div>
         <div class="side-nav d-flex justify-content-center align-items-center">
@@ -104,7 +106,7 @@
     </nav>
     <!-----navbar part end----->
     <!-----banner part start----->
-    <div class="mixer">
+    <!-- <div class="mixer">
         <div class="icon">
             <i class="fas fa-cog"></i>
         </div>
@@ -123,7 +125,7 @@
                 <li class="color_ten"><img src="images/mix-img10.png" alt=""></li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <section id="banner">
         <div class="container">
             <div class="row">
@@ -131,12 +133,11 @@
                     <div class="banner-content">
                         <div class="text text-start" data-aos="fade-up" data-aos-duration="1500">
                             <a class="venobox" data-autoplay="true" data-vbtype="video"
-                                href="https://www.youtube.com/watch?v=nXIqgxQGOFQ">
+                                href="https://youtu.be/HXYdTExnqT0">
                                 <button class="play-button" href="#">
                                     <i class="fas fa-play"></i>
                                 </button>
                             </a>
-
                             <h2>Hello, I am</h2>
                             <h1>Nahid Raj</h1>
                             <h3>I Am <span class="type"></span></h3>
@@ -295,69 +296,37 @@
                 <div class="row">
                     <div class="col-lg-5 col-xl-6">
                         <div class="title-text">
-                            <h3>Web Design Skill</h3>
+                            <h3 class="web-skill">Web Design Skill</h3>
+                            <span class="aval">Available Now</span>
                         </div>
                         <div class="progress-details">
-                            <div class="bar-1">
-                                <p class="progress-title">
-                                    HTML 5
-                                    <span class="toll-tip">
-                                        <span class="counter">95</span><span class="percent">%</span>
-                                    </span>
-                                </p>
-                                <div id="bar1" class="barfiller">
-                                    <span class="fill" data-percentage="95"></span>
-                                </div>
+
+                            <div class="single-progressbar">
+                                <h4 class="title">HTML 5</h4>
+                                <div class="html"></div>
                             </div>
-                            <div class="bar-2">
-                                <p class="progress-title">
-                                    CSS 3
-                                    <span class="toll-tip">
-                                        <span class="counter">80</span><span class="percent">%</span>
-                                    </span>
-                                </p>
-                                <div id="bar2" class="barfiller">
-                                    <span class="fill" data-percentage="80"></span>
-                                </div>
+                            <div class="single-progressbar">
+                                <h4 class="title">CSS 3</h4>
+                                <div class="css"></div>
                             </div>
-                            <div class="bar-3">
-                                <p class="progress-title">
-                                    JAVASCRIPT
-                                    <span class="toll-tip">
-                                        <span class="counter">55</span><span class="percent">%</span>
-                                    </span>
-                                </p>
-                                <div id="bar3" class="barfiller">
-                                    <span class="fill" data-percentage="55"></span>
-                                </div>
+                            <div class="single-progressbar">
+                                <h4 class="title">JAVASCRIPT</h4>
+                                <div class="php"></div>
                             </div>
-                            <div class="bar-4">
-                                <p class="progress-title">
-                                    BOOTSTRAP
-                                    <span class="toll-tip">
-                                        <span class="counter">90</span><span class="percent">%</span>
-                                    </span>
-                                </p>
-                                <div id="bar4" class="barfiller">
-                                    <span class="fill" data-percentage="90"></span>
-                                </div>
+                            <div class="single-progressbar">
+                                <h4 class="title">BOOTSTRAP</h4>
+                                <div class="javascript"></div>
                             </div>
-                            <div class="bar-5">
-                                <p class="progress-title">
-                                    JQUERY
-                                    <span class="toll-tip">
-                                        <span class="counter">75</span><span class="percent">%</span>
-                                    </span>
-                                </p>
-                                <div id="bar5" class="barfiller">
-                                    <span class="fill" data-percentage="75"></span>
-                                </div>
+                            <div class="single-progressbar">
+                                <h4 class="title">JQUERY</h4>
+                                <div class="jquery"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-7 col-xl-6">
                         <div class="title-text">
-                            <h3>Development Skill</h3>
+                            <h3 class="dev-skill">Development Skill</h3>
+                            <span class="comming">Comming Soon</span>
                         </div>
                         <div class="item text-center">
                             <div class="row">
@@ -373,7 +342,7 @@
                                 <div class="col-lg-4 col-md-4">
                                     <div class="circle main-circle">
                                         <p>
-                                            <span class="pars counter">90</span><span class="cent">%<span>
+                                            <span class="pars counter">80</span><span class="cent">%<span>
                                         </p>
                                         <div class="circlechart" data-percentage="90"></div>
                                         <h5>laravel</h5>
@@ -382,7 +351,7 @@
                                 <div class="col-lg-4 col-md-4">
                                     <div class="circle">
                                         <p>
-                                            <span class="pars counter">65</span><span class="cent">%<span>
+                                            <span class="pars counter">75</span><span class="cent">%<span>
                                         </p>
                                         <div class="circlechart" data-percentage="75"></div>
                                         <h5>mysql</h5>
@@ -411,20 +380,15 @@
                     </div>
                 </div>
             </div>
-            <div class="port-main">
-                <div class="row" data-aos="fade-up" data-aos-duration="1500">
-                    <div class="col-lg-12">
-                        <div class="menu">
-                            <ul>
-                                <li class="control" data-filter="all">All</li>
-                                <li class="control" data-filter=".per">Personal</li>
-                                <li class="control" data-filter=".cor">Corporate</li>
-                                <li class="control" data-filter=".tech">Education</li>
-                                <li class="control" data-filter=".e-com">E-Commerce</li>
-                            </ul>
-                        </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-lg-8 mx-auto">
+                    <div class="port-headline text-center">
+                        <p>Please check my recent works history, Where I have tried to show that I am the best web
+                            designer for you.</p>
                     </div>
                 </div>
+            </div>
+            <div class="port-main">
                 <div class="row main-container" data-aos="fade-up" data-aos-duration="1500">
                     <div class="col-lg-4 col-md-6 mix per cor">
                         <div class="images">
@@ -432,7 +396,9 @@
                             <div class="overlay">
                                 <div class="content">
                                     <div class="demo">
-                                        <a href="#"><i class="far fa-eye"></i>live demo</a>
+                                        <a class="venobox" data-gall="gallery01" href="images/site-one.jpg">
+                                            <i class="far fa-eye"></i>preview
+                                        </a>
                                     </div>
                                     <div class="title-text">
                                         <p><i class="fab fa-superpowers"></i>landing page website</p>
@@ -448,7 +414,9 @@
                             <div class="overlay">
                                 <div class="content">
                                     <div class="demo">
-                                        <a href="#"><i class="far fa-eye"></i>live demo</a>
+                                        <a class="venobox" data-gall="gallery01" href="images/site-two.png">
+                                            <i class="far fa-eye"></i>preview
+                                        </a>
                                     </div>
                                     <div class="title-text">
                                         <p><i class="fab fa-superpowers"></i>landing page website</p>
@@ -464,7 +432,9 @@
                             <div class="overlay">
                                 <div class="content">
                                     <div class="demo">
-                                        <a href="#"><i class="far fa-eye"></i>live demo</a>
+                                        <a class="venobox" data-gall="gallery01" href="images/site-three.png">
+                                            <i class="far fa-eye"></i>preview
+                                        </a>
                                     </div>
                                     <div class="title-text">
                                         <p><i class="fab fa-superpowers"></i>landing page website</p>
@@ -480,7 +450,9 @@
                             <div class="overlay">
                                 <div class="content">
                                     <div class="demo">
-                                        <a href="#"><i class="far fa-eye"></i>live demo</a>
+                                        <a class="venobox" data-gall="gallery01" href="images/site-four.jpg">
+                                            <i class="far fa-eye"></i>preview
+                                        </a>
                                     </div>
                                     <div class="title-text">
                                         <p><i class="fab fa-superpowers"></i>landing page website</p>
@@ -496,7 +468,9 @@
                             <div class="overlay">
                                 <div class="content">
                                     <div class="demo">
-                                        <a href="#"><i class="far fa-eye"></i>live demo</a>
+                                        <a class="venobox" data-gall="gallery01" href="images/site-five.jpg">
+                                            <i class="far fa-eye"></i>preview
+                                        </a>
                                     </div>
                                     <div class="title-text">
                                         <p><i class="fab fa-superpowers"></i>landing page website</p>
@@ -512,7 +486,9 @@
                             <div class="overlay">
                                 <div class="content">
                                     <div class="demo">
-                                        <a href="#"><i class="far fa-eye"></i>live demo</a>
+                                        <a class="venobox" data-gall="gallery01" href="images/site-six.jpg">
+                                            <i class="far fa-eye"></i>preview
+                                        </a>
                                     </div>
                                     <div class="title-text">
                                         <p><i class="fab fa-superpowers"></i>landing page website</p>
@@ -530,7 +506,7 @@
     <!-----feedback part start----->
     <section id="feedback">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up" data-aos-duration="1500">
                 <div class="col-lg-7 mx-auto">
                     <div class="heading text-center">
                         <h4>Clients Feedback</h4>
@@ -542,7 +518,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed-main">
+            <div class="feed-main" data-aos="fade-up" data-aos-duration="1500">
                 <div class="row slider-main">
                     <div class="col-lg-6">
                         <div class="slider-item">
@@ -612,7 +588,7 @@
     </a>
     <section id="contact">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up" data-aos-duration="1500">
                 <div class="col-lg-7">
                     <div class="heading text-start">
                         <h4>Sent a message</h4>
@@ -625,7 +601,7 @@
             </div>
             <div class="contact-main">
                 <div class="row">
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-4 align-self-center" data-aos="fade-right" data-aos-duration="1500">
                         <div class="touch-part">
                             <h3>Get in touch</h3>
                             <p>
@@ -646,7 +622,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" data-aos="fade-left" data-aos-duration="1500">
                         <div class="form-part">
                             <form action="#" method="POST">
                                 <div class="row">
@@ -695,7 +671,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text">
-                        <p>Copyright &copy; 2020. All rights reserved by <span>Nahid</span></p>
+                        <p>Copyright &copy; 2021. All rights reserved by <span>Nahid</span></p>
                     </div>
                 </div>
             </div>
@@ -712,8 +688,8 @@
     <script src="js/aos.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jQuery.rProgressbar.min.js"></script>
+    <script src="js/active.js"></script>
     <script src="js/progresscircle.js"></script>
     <script src="js/script.js"></script>
 </body>
