@@ -26,7 +26,6 @@ body {
     font-size: 15px;
     font-weight: 400;
     background-color: #10101A;
-    cursor: default;
 }
 
 ::selection {
@@ -844,39 +843,6 @@ nav .social-icon ul li a:hover {
 #my-skills .title-text h3 {
     font-size: 24px;
     font-weight: 600;
-}
-
-#my-skills .title-text .web-skill {
-    position: relative;
-}
-
-#my-skills .title-text .aval {
-    position: absolute;
-    font-size: 13px;
-    font-weight: 400;
-    top: 29px;
-    left: 15%;
-    background-color: #FEBF16;
-    color: #000;
-    padding: 2px 6px;
-    border-radius: 20px;
-    z-index: 9;
-}
-
-#my-skills .title-text .dev-skill {
-    position: relative;
-}
-
-#my-skills .title-text .comming {
-    position: absolute;
-    font-size: 13px;
-    font-weight: 400;
-    top: 29px;
-    right: 25%;
-    background-color: #FEBF16;
-    color: #000;
-    padding: 2px 6px;
-    border-radius: 20px;
 }
 
 #my-skills .title {
