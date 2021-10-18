@@ -31,7 +31,7 @@
 @media (min-width:992px) and (max-width:1199px) {
     /* header part css */
     header .follow {
-        padding-right: 40px;
+        padding-right: 55px;
     }
     /* navbar part css */
     nav .logo {
@@ -132,6 +132,9 @@
         padding: 15px 0 10px 0;
         margin: 0 auto;
     }
+    #portfolio .port-headline {
+        padding: 0 40px;
+    }
     /* feedback part css */
     #feedback {
         padding: 60px 0 0px 0;
@@ -153,6 +156,14 @@
     /* header part css */
     header .follow {
         padding-right: 40px;
+    }
+    /* header part css */
+    header .open-menu i {
+        padding: 10px 0 0 40px;
+    }
+    header .open-menu i span {
+        top: 14px;
+        right: -58px;
     }
     /* banner part css */
     #banner .text h3 {
@@ -223,7 +234,7 @@
         margin-bottom: 40px;
     }
     #my-skills .skills-main {
-        padding-top: 35px;
+        padding-top: 10px;
     }
     #my-skills .title-text {
         padding-bottom: 30px;
@@ -237,6 +248,12 @@
     /* portfolio part css */
     #portfolio {
         padding: 60px 0 30px 0;
+    }
+    #portfolio .port-headline {
+        padding: 0 82px;
+    }
+    #portfolio .heading {
+        padding-bottom: 10px;
     }
     #portfolio .heading h2 {
         padding: 15px 0 10px 0;
@@ -269,6 +286,9 @@
     #feedback .heading h2 {
         padding: 10px 0px 0;
         margin: 0 auto;
+    }
+    #feedback .feed-main {
+        padding-top: 20px;
     }
     #feedback .feed-main .img {
         position: absolute;
@@ -306,11 +326,16 @@
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
+    nav .image {
+        margin-left: -11px;
+    }
     /* header part css */
-    header .open-bars i {
-        font-size: 24px;
-        padding: 10px 0 0 60px;
-        background-color: transparent;
+    header .open-menu i {
+        padding: 10px 0 0 40px;
+    }
+    header .open-menu i span {
+        top: 14px;
+        right: -58px;
     }
     header .follow {
         padding-right: 40px;
@@ -424,6 +449,14 @@
     /* portfolio part css */
     #portfolio {
         padding: 60px 0 30px 0;
+    }
+    /* portfolio part css */
+    #portfolio .port-headline {
+        padding: 0;
+    }
+    #portfolio .port-headline p {
+        padding-left: 20px;
+        margin-top: 10px;
     }
     #portfolio .heading h2 {
         padding: 15px 0 10px 0;
@@ -554,6 +587,10 @@
     nav .logo img {
         margin-left: -8px;
     }
+    /* navbar part css */
+    nav .image {
+        margin-left: -11px;
+    }
     nav ul li a {
         font-size: 20px;
     }
@@ -657,7 +694,7 @@
         padding: 60px 0 30px 0;
     }
     #portfolio .port-main {
-        padding-top: 10px;
+        padding-top: 30px;
     }
     #portfolio .heading h2 {
         padding: 15px 0 10px 0;
@@ -737,6 +774,10 @@
 }
 
 @media (width:575px) {
+    /* navbar part css */
+    nav .image {
+        margin-left: -11px;
+    }
     /* about part css */
     .heading {
         text-align: left;
@@ -763,6 +804,13 @@
     }
     #my-skills .heading h2 {
         padding-right: 0px;
+    }
+    /* portfolio part css */
+    #portfolio .port-headline {
+        padding: 0;
+    }
+    #portfolio .port-headline p {
+        padding-left: 20px;
     }
     /* feedback part css */
     #feedback .feed-main .name {
@@ -813,6 +861,10 @@
 }
 
 @media (width:411px) {
+    /* navbar part css */
+    nav .image {
+        margin-left: -11px;
+    }
     /* portfolio part css */
     #portfolio .heading h2 {
         padding: 15px 33px 10px 0;
@@ -820,10 +872,44 @@
     /* feedback part css */
     #feedback .heading h2 {
         padding: 10PX 89px 0px 0px;
+    }
+    /* portfolio part css */
+    #portfolio .port-headline {
+        padding: 0;
+    }
+    #portfolio .port-headline p {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media (width:412px) {
+    /* navbar part css */
+    nav .image {
+        margin-left: -11px;
+    }
+    /* portfolio part css */
+    #portfolio .heading h2 {
+        padding: 15px 25px 10px 0;
+        text-align: left;
+    }
+    #portfolio .port-headline {
+        padding: 0;
+    }
+    #portfolio .port-headline p {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    #feedback .heading h2 {
+        padding: 10PX 6px 0px 0px;
     }
 }
 
 @media (width:414px) {
+    /* navbar part css */
+    nav .image {
+        margin-left: -11px;
+    }
     /* portfolio part css */
     #portfolio .heading h2 {
         padding: 15px 33px 10px 0;
@@ -831,5 +917,20 @@
     /* feedback part css */
     #feedback .heading h2 {
         padding: 10PX 89px 0px 0px;
+    }
+    /* portfolio part css */
+    #portfolio .port-headline {
+        padding: 0;
+    }
+    #portfolio .port-headline p {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media (width:320px) {
+    /* navbar part css */
+    nav .image {
+        margin-left: -11px;
     }
 }

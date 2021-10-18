@@ -12,6 +12,7 @@ ul, ol {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -57,7 +58,6 @@ body {
 .heading h2 {
     font-size: 56px;
     font-weight: 700;
-    color: #fff;
     padding: 10px 0 20px 0;
     line-height: 68px;
 }
@@ -169,14 +169,6 @@ header .open-menu i span {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
-}
-
-header .logo {
-    width: 100%;
-}
-
-header .logo a {
-    color: #fff;
 }
 
 header .logo h2 {
@@ -297,7 +289,6 @@ nav .logo {
 nav .logo h2 {
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
     text-transform: uppercase;
     letter-spacing: 5px;
     padding-top: 25px;
@@ -310,7 +301,6 @@ nav .logo {
     top: -180px;
     left: -35px;
     background-color: #F21E4E;
-    content: "";
     border-radius: 0 0 50% 50%;
 }
 
@@ -318,7 +308,7 @@ nav .logo .image {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 4px solid #fff;
     display: inline-block;
     margin-top: 180px;
     overflow: hidden;
@@ -326,8 +316,8 @@ nav .logo .image {
 }
 
 nav .logo .image img {
-    height: 114px;
-    margin: 4px 0 0 3px;
+    height: 126px;
+    margin: 5px 0 0 3px;
 }
 
 nav .navbar-main {
@@ -342,7 +332,6 @@ nav .navbar-main li {
 }
 
 nav .navbar-main li a {
-    display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
@@ -380,7 +369,6 @@ nav .social-icon ul li {
 }
 
 nav .social-icon ul li a {
-    display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
@@ -397,25 +385,6 @@ nav .social-icon ul li a:hover {
 
 .nav-link:focus {
     color: #fff;
-}
-
-.open-bars {
-    display: none;
-    position: fixed;
-    top: 30px;
-    right: 40px;
-    z-index: 99;
-    color: #fff;
-    cursor: pointer;
-    font-size: 24px;
-}
-
-.open-bars span {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 400;
-    color: #fff;
-    padding-left: 10px;
 }
 
 .show-menu {
@@ -512,15 +481,11 @@ nav .social-icon ul li a:hover {
 }
 
 #banner .banner-content {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     height: 100vh;
 }
 
 #banner .text h1 {
     font-size: 92px;
-    color: #fff;
     font-weight: 700;
     letter-spacing: 4px;
     margin-left: -5px;
@@ -545,7 +510,6 @@ nav .social-icon ul li a:hover {
 
 #banner .text p {
     font-size: 14px;
-    color: #fff;
     font-weight: 400;
     padding-top: 20px;
     letter-spacing: 4px;
@@ -556,17 +520,13 @@ nav .social-icon ul li a:hover {
     width: 90px;
     height: 90px;
     background-color: #10101A;
-    text-align: center;
-    line-height: 90px;
     border-radius: 50%;
     border: 1px solid #404048;
     display: inline-block;
-    color: #fff;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 1);
 }
 
 #banner button {
-    text-align: center;
     animation: ripple 1.5s linear infinite;
     transition: all 0.7s ease;
 }
@@ -679,7 +639,6 @@ nav .social-icon ul li a:hover {
     text-align: center;
     line-height: 70px;
     font-size: 36px;
-    color: #fff;
     position: relative;
 }
 
@@ -714,7 +673,6 @@ nav .social-icon ul li a:hover {
 }
 
 #about .contact ul li a {
-    display: inline-block;
     font-size: 15px;
     color: #9a9a9a;
     width: 40px;
@@ -997,7 +955,6 @@ nav .social-icon ul li a:hover {
 }
 
 #portfolio .images a {
-    display: inline-block;
     font-size: 14px;
     font-weight: 500;
     color: #fff;
@@ -1029,7 +986,6 @@ nav .social-icon ul li a:hover {
 #portfolio .images p {
     font-size: 15px;
     font-weight: 500;
-    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: 5px;
