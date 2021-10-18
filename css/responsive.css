@@ -693,6 +693,12 @@
     #portfolio {
         padding: 60px 0 30px 0;
     }
+    #portfolio .port-headline {
+        padding: 0;
+    }
+    #portfolio .port-headline p {
+        padding-left: 20px;
+    }
     #portfolio .port-main {
         padding-top: 30px;
     }
